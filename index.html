@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>страница 1</title> <!--Название вкладки страницы-->
+    <link rel="stylesheet" href="Untitled-1.css"> <!--Подключение файла css-->
+</head>
+<body>
+    <h1>Заголовок 1</h1>
+    <p>параграф</p>
+    <h2>Заголовок 2</h2>
+    <p>параграф</p>
+    <h3>Заголовок3</h3>
+    <p>параграф</p>
+    <hr>
+    <table>
+        <caption>Заголовок таблицы</caption> <!--thead tbody tfoot-->
+        <tr><!--первая сторока-->
+            <td>1</td><!--значения первой строки--><!--атрибуты colspan="2" для td объединяет 2 ячейки строки, rowspan объединяет ячейки столбцов -->
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr><!--вторая строка-->
+            <td>4</td><!--значения второй строки-->
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table> <!--атрибуты colspan="2" для td объединяет 2 ячейки строки, rowspan объединяет ячейки столбцов -->
+    <hr>
+    <nav> <!--навигационная ссылка по сайту-->
+        <a href="index1.html">1 страница</a> | <a href="index2.html">2 странца</a>
+    </nav>
+     <!--<header></header>	секция для вводной информации сайта или группы навигационных ссылок
+        <footer></footer>	секция для нижнего колонтитула документа или раздела-->	
+   <hr> <!--горизонтальная линия--> 
+   <br> <!--новая строка-->
+   <ul> <!--маркированный список-->
+       <li>текст</li>
+       <li>текст</li>
+   </ul>
+   <hr>
+   <ol> <!--нумерованный список-->
+       <li>текст</li>
+       <li>текст </li>
+   </ol>
+   <hr>
+   <dl> <!--список с описанием-->
+       <dt>текст</dt>
+       <dd>описание</dd>
+       <dt>текст</dt>
+       <dd>описание</dd>
+   </dl>
+    <hr>
+    <figure> <!--элемент иллюстрации с необязательной подписью(подпись и рисунок одно целое)-->
+        <img width="200px" src="ris.jpg" alt="рисунок"> <!-- <audio>, <video>; <track>-субтитры для audio и video-->
+        <figcaption>Подпсь изображения</figcaption>
+    </figure>
+    <hr>
+    <details> <!--если <details open> сразу открыт текст-->
+        <summary>детали</summary>
+        текст при нажатии на детали
+    </details>
+    <hr>
+    <a href="google.com" target="_blank">google</a> <!--гиперссылка, target=_blank открывает ссылку в новой вкладке-->
+    <hr>
+    <div>блок1</div> <!--блочный элемент, занимает всю строку-->
+    <div>блок2</div>
+    <hr>
+    <span>блок1</span> <!--строчный элемент, размер соответствует содержимому-->
+    <span>блок2</span>
+    <hr>
+    <form action="#" method="get" enctype="multipart/form-data"></form>
+        <input type="text" name="text" value="">
+        <input type="password">
+        <input type="radio">
+        <br>
+        <br>
+        <textarea name="" placeholder="удаляется при вводе"></textarea>
+        <br>
+        <br>
+        <select name="№" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <button type="submit" >отпправить</button>
+</body>
+</html>
